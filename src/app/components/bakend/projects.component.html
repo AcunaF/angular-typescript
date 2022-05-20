@@ -1,0 +1,355 @@
+<h1 class="animated FadeIn fast">Lenguajes Back</h1>
+<br>
+<hr>
+<h2><b>Que es el Backend</b></h2>
+<br>
+<p>El Backend, también conocido como CMS o Backoffice, es la parte de la app que el usuario final no puede ver. Su
+    función
+    es acceder a la información que se solicita, a través de la app, para luego combinarla y devolverla al usuario
+    final.
+    Ahora, que ya conoces las diferencias y las relaciones entre el Frontend y el Backend de una app, estamos listos
+    para
+    seguir profundizando en los procesos y las tareas que lleva a cabo el segundo.<br><br>
+    <b><u>¿Cómo funciona un Backend?</u></b><br>
+    <u>Las funciones del Backend son las siguientes:</u><br>
+    Acceder a la información que se pide, a través de la app: cuando usamos una aplicación móvil pedimos información de
+    manera continua, no importa si la app es de búsqueda de información, un juego o una red social. Esto implica que una
+    parte de la app (el Backend), tiene que ser capaz de encontrar y acceder a la información que solicitemos. El
+    proceso de búsqueda de datos no es fácil, ya que estos se almacenan en grandes bases de datos (en plural), que se
+    encuentran,
+    además, protegidos para no exponer lo que en nuestra área se denomina información sensible. En este punto, un
+    Backend bien diseñado debe ser capaz no sólo de encontrar la información precisa que el usuario requiere, sino
+    también de
+    acceder a ella de manera segura.<br>
+    Combinar la información encontrada y transformarla: Una vez encontrada, el Backend combina la información para que
+    resulte útil al usuario. Pongamos, como ejemplo, una aplicación de transporte y una orden de búsqueda: “cómo llegar
+    del trabajo a casa”. En este caso, nuestra aplicación necesitará acceder a las bases de datos no sólo de todas las
+    compañías de autobuses
+    de la ciudad, sino también las de las empresas de taxis, metro y, por supuesto, Google Maps. La ingente cantidad de
+    información con la que el Backend trabaja, hace que su diseño deba ser sumamente preciso, ya que debe ser capaz de
+    encontrar y filtrar lo que es relevante de lo que no, para luego combinarlo de manera útil.<br><br>
+    Devolver la información al usuario: Finalmente, el Backend envía la información relevada de vuelta al usuario. Pero,
+    ¿cuántos usuarios son capaces de leer datos escritos en código puro? Pocos. Es por ello que el Backend necesita de
+    traductores capaces de convertir los datos escritos en código a lenguaje humano. Es aquí donde intervienen las
+    famosas <b>APIs</b>, <u>trabajando en conjunto con el Frontend.</u><br>
+    <u>En pocas palabras, las APIs son las herramientas encargadas de transportar la información desde el Backend hasta
+        el
+        Frontend, que es donde el proceso final de traducción toma forma, y donde la información escrita en código se
+        convierte en los diseños, las imágenes, las letras y los botones que el usuario final entiende y con los que
+        puede
+        interactuar.</u><br>
+
+    Este proceso es hecho por en Frontend en dos fases, que tienen lugar en dos subcapas que conforman su estructura:
+
+    La subcapa lógica, relacionada con el lenguaje específico, en el que la app ha sido desarrollada. Como ya sabemos,
+    las
+    apps pueden ser desarrolladas para distintos sistemas operativos -iOS, Android, WindowsPhone…- que requieren ser
+    escritas en distintos lenguajes de código. En este punto, la subcapa lógica del Frontend se encarga de hacer una
+    primera
+    traducción del lenguaje en el que las APIs envían la información al lenguaje específico de cada sistema operativo.
+    Este
+    es un proceso que, a pesar de ocurrir en el Frontend de nuestra app, el usuario final no ve. Podríamos llamarlo el
+    “Backend del Fronted”.<br><br>
+
+    La subcapa visual, relacionada con el diseño estético de la app, en la que se encuentran todos los elementos que el
+    usuario final puede ver. La capa visual del Frontend es donde, finalmente, se produce la conversión de la
+    información a
+    los elementos con el que el usuario final se relaciona, y a los que hacíamos referencia al comenzar este artículo.
+
+
+    Para concluir con las funciones y procesos del Backend, Ignacio Barrea, director y cofundador de Ticapps, empresa
+    especializada en consultoría y desarrollo mobile apunta: “El desarrollo de un Backend sólido es clave para conseguir
+    una
+    buena experiencia de usuario. Podemos desarrollar los mejores y más novedosos diseños, podemos tener la mejor idea
+    para
+    un negocio mobile pero, al final, si los cimientos de la app fallan, nuestra aplicación acabará siendo un
+    fracaso”.<br><br>
+
+
+
+    <b>Técnicas usadas en Backend y recomendaciones finales</b><br><br>
+
+
+
+    Las técnicas utilizadas para el desarrollo del Backend en término de lenguajes de programación son muchas, pero
+    todas
+    tiene un objetivo en común: deben ser intuitivas y comprensibles para los desarrolladores. Gran parte del código de
+    la
+    app se encuentra escrito en el Backend, lo que implica que para cualquier actualización o modificación de la misma,
+    los
+    desarrolladores tendrán que volver a trabajar sobre el mismo. Por eso, para facilitar su trabajo y conseguir mejores
+    resultados, el código debe ser claro e intuitivo.
+
+
+
+    Entre los lenguajes más populares de Backend se encuentran Ruby, Python, SQL, PHP y Java. Todos tienen ventajas e
+    inconvenientes, por lo que dependerá de las necesidades específicas de nuestra app el escoger uno u otro. Sin ánimo
+    de
+    profundizar en los lenguajes de programación, desde Ticapps recomendamos usar aquellos que cumplan con los
+    siguientes
+    criterios:
+
+
+
+    Escalabilidad: cuando hablamos de la escalabilidad del Backend, nos referimos a la flexibilidad del mismo para
+    integrar
+    nuevas estructuras y códigos. Este es un aspecto esencial, especialmente si nuestra app ha sido diseñada para
+    utilizarse
+    a largo plazo. ¿Por qué? Porque los cambios en mobile son inevitables. Cada día nuevos sistemas operativos y
+    dispositivos móviles son lanzados al mercado, por no hablar de que nuestro modelo de negocio mobile puede -y debe-
+    evolucionar junto a mismo. En un contexto tan dinámico, la flexibilidad de nuestra app y su Backend es clave para el
+    éxito.
+    Seguridad: debido a la constante interacción del Backend con las bases de datos, desarrollar el código siguiendo
+    prácticas seguras es sumamente importante, más aún si nuestra app está diseñada para manejar información sensible,
+    como
+    datos personales, financieros o médicos. Para el desarrollo de un Backend seguro, desde Tictapps recomendamos
+    trabajar
+    sólo con desarrolladores cualificados, hacer uso de conexiones seguras -como las famosas HTTPS- y utilizar bases de
+    datos encriptadas.
+    Robustez: con esto nos referimos a la "fuerza" del Backend, o su capacidad para funcionar en cualquier contexto.
+    Imaginen, por ejemplo, que desarrollamos una app para ser un mobile commerce. En este caso, la aplicación deberá
+    desarrollarse teniendo en cuenta situaciones inesperadas, como el registro y uso masivo de la app en fechas de venta
+    clave -Navidad, Rebajas-. Un Backend desarrollado de manera robusta nos asegura que, ante este tipo de situaciones,
+    nuestra app siga funcionando, evitando los famosos crashes, que dan lugar a malas experiencias de uso y por lo tanto
+    a la temida desinstalación de la app.
+    <br><br>
+    <hr>
+
+<p class=" animated fadeIn">
+    <b>Los 5 lenguajes de programación más utilizados en el mundo y para qué sirven</b>
+    <br>
+    <br>
+    <b>Los 5 mejores lenguajes de programación</b><br><br>
+    Aprender uno de estos lenguajes de programación, teniendo en cuenta que la demanda de programadores crece a
+    medida que se acelera la transformación digital, y que la oferta disponible en el mercado laboral todavía no le
+    puede dar respuesta, te facilitará el acceso a interesantes oportunidades laborales, en el corto plazo y con
+    salarios
+    ascendentes.<br>
+
+    Los lenguajes de programación más utilizados a nivel mundial son <b>Python, C, Java, C++ y C#</b>. Así lo indica la
+    última
+    actualización del Índice TIOBE, elaborado por una empresa de software holandesa que revisa en tiempo real más de 300
+    millones de códigos de diversos programas informáticos por día.<br>
+
+    <b>Del sexto al séptimo lugar se ubican Visual Basic, JavaScript, SQL, PHP y Assembly language</b>, revela el
+    indicador, que no refleja el mejor lenguaje de programación o aquel en el que se han escrito la mayoría de las
+    líneas de
+    código, sino que permite verificar la vigencia de habilidades de programación y tomar decisiones estratégicas sobre
+    el lenguaje
+    de programación que debe adoptarse al construir un nuevo sistema de software.<br>
+
+    El Índice TIOBE también sirve para determinar los objetivos que se proponga cada persona al decidir aprender
+    programación, para reconvertirse y mantener o recuperar sus niveles de empleabilidad.<br>
+    <br>
+    <br>
+
+    <b>Veamos las características de cada uno de los 5 lenguajes más usados del mundo:</b><br><br>
+
+<div>
+    <p>
+    <ul>
+        <li>1.Python.</li>
+        <li>2.C: programación de bajo nivel</li>
+        <li>3.Java: interactuar con máquinas y orientar sus procesos para facilitar la vida de las personas</li>
+        <li>4.C++: programación más fácil y eficiente</li>
+        <li>5.C#: lenguaje popular para la creación de programas de Windows y aplicaciones web</li>
+
+        <br>
+        <b>1. Python.</b>
+
+        Conocido como el lenguaje de la inteligencia artificial y las redes neuronales, dominarlo es una de las
+        competencias
+        más
+        requeridas por el mercado laboral. Como señaló Sergio Kaufman, Presidente de Accenture Argentina y Sudamérica
+        Hispana,
+        en la 26° Conferencia Industrial organizada por la Unión Industrial Argentina: “Un profesional que puede
+        vincular la
+        inteligencia artificial con los mecanismos, máquinas y objetos de producción, no tiene precio y su sueldo nunca
+        va a
+        ser
+        suficientemente alto, porque genera una serie de eficiencias escalonadas que justifican el valor de su ingreso.”
+
+        El 57% de los científicos de datos y desarrolladores de aprendizaje automático lo utilizan y 33% lo prioriza
+        para el
+        desarrollo.
+
+        Python es un lenguaje multiplataforma que puede ser utilizado mediante Programación Orientada a Objetos (POO),
+        una
+        forma
+        especial de programar que guarda ciertas similitudes a la forma en cómo nos expresaríamos en la vida real. La
+        POO
+        plantea resolver problemas de un modo distinto a la programación estructurada, generando condiciones favorables
+        al
+        desarrollo de aplicaciones complejas, evitando códigos caóticos y abriendo la posibilidad de reutilizarlos.
+
+        “Un profesional que puede vincular la inteligencia artificial con los mecanismos, máquinas y objetos de
+        producción,
+        no
+        tiene precio y su sueldo nunca va a ser suficientemente alto, porque genera una serie de eficiencias escalonadas
+        que
+        justifican el valor de su ingreso.”
+        Entre los aspectos que diferencian a Python de otros lenguajes de programación como Java, C, PHP y javascript,
+        se
+        destacan las <b><u>siguientes características:</u></b><br><br>
+
+        <b>Sintaxis simple<br>
+            Ausencia de paréntesis<br>
+            No incorporación de punto y coma al final de cada instrucción<br>
+            También es importante destacar que se trata de un lenguaje muy completo, con soporte para bases de datos
+            relacionales, no relacionales u orientados a objetos, capaz de incorporar ORM´s con frameworks de desarrollo
+            muy complejos.</b><br><br>
+
+        Aprender Python aporta competencias para vincular la inteligencia artificial con los mecanismos, máquinas y
+        objetos
+        de
+        producción -como decía Kaufman-, abriendo un enorme campo de oportunidad laboral muy bien remunerado.
+
+        Además, optimiza esfuerzos de desarrollo, al ser un lenguaje sencillo y de código abierto, que evita tener que
+        estar
+        todo el tiempo reinventando la rueda.<br><br>
+
+
+        <b>2. C: programación de bajo nivel</b>Con 50 años de existencia y presencia en el mercado, el <b>lenguaje C</b>
+        se utiliza para escribir aplicaciones
+        destinadas a casi todas las plataformas disponibles. Es fácil de leer, flexible y eficiente en el uso de la
+        memoria y se
+        ejecuta en la mayoría de los sistemas operativos.<br>
+        C es utilizado para desarrollar aplicaciones de bajo nivel, al considerárselo el lenguaje más cercano al
+        hardware,con excepción del ascendente ‘assembly language’, que se ubica en la posición 12° del índice Tiobe
+        luego de subir
+        dos puestos en el último año.<br><br>
+
+        <b>3. Java:</b>interactuar con máquinas y orientar sus procesos para facilitar la vida de las personas
+        Es un lenguaje de programación orientado a objetos que originalmente fue diseñado para la creación de programas
+        destinados a decodificadores y dispositivos portátiles. Luego se convirtió en una opción popular para crear
+        aplicaciones web. Al ser un lenguaje de programación multiplataforma y multiparadigma, está presente en millones
+        de dispositivos
+        en todo el mundo y <u>es utilizado por 6,8 millones de desarrolladores.</u><br>
+
+        Java es conocido por ser estricto, lo que significa que las variables y funciones deben definirse
+        explícitamente. Esto implica que su código fuente:<u> puede producir errores o ‘excepciones’ más fácilmente que
+            otros lenguajes,
+            también limita otro tipo de errores que pueden ser causados ​​por variables no definidas o tipos no
+            asignados.
+            El objetivo de Java reside en permitir que los desarrolladores de aplicaciones escriban el código una sola
+            vez y que pueda ser ejecutado en cualquier lugar. Una particularidad a la que se denomina WORA (Write once,
+            run anywhere?/</u> Escribe una vez, corre en cualquier lugar). Esto significa que su código compilado puede
+        ejecutarse en cualquier
+        plataforma que admita Java sin la necesidad de volver a ser compilado.<br><br>
+
+        <b><u> Java se creó con cinco objetivos principales, que definen la filosofía del lenguaje:</u></b>
+
+        <ul>
+            <li>1.Usar el paradigma de la programación orientada a objetos.</li>
+            <li>2.Permitir la ejecución de un mismo programa en múltiples sistemas operativos.</li>
+            <li>3.Incluir por defecto soporte para trabajo en red.</li>
+            <li>4.Ejecutar código en sistemas remotos de forma segura.</li>
+            <li>5.Fácil de usar y tomar lo mejor de otros lenguajes orientados a objetos, como C++.</li>
+        </ul>
+        <br>
+        <u>Se trata de un lenguaje muy versátil, con ventajas concretas:</u>Amplia biblioteca estándar que facilita la
+        codificación y herramientas para que los programas puedan ser
+        distribuidos. Independencia y portabilidad, los programas escritos en Java pueden ejecutarse en cualquier tipo
+        de hardware, y
+        continuarán funcionando si el sistema operativo o algún otro programa externo falla.
+        Es multiplataforma.
+        Los desarrolladores pueden continuar o actualizar un proyecto terminado, en lugar de empezar desde cero. Los
+        objetos
+        mantienen el código ordenado y fácil de modificar.
+        Cuando no hay referencias localizadas a un objeto, el recolector de basura de Java borra dicho objeto, liberando
+        la
+        memoria que ocupaba y optimizando el rendimiento.
+        Plataforma segura para desarrollar y ejecutar aplicaciones, administrando automáticamente la memoria, proveyendo
+        canales
+        de comunicación segura y protegiendo la privacidad de los datos.
+        Es multihilo, realiza varias tareas simultáneamente dentro del mismo programa, mejorando el rendimiento y la
+        velocidad
+        de ejecución.
+        Como resaltan desde DesarrolloWeb.com, con Java se pueden desarrollar todo tipo de proyectos, desde aplicaciones
+        web
+        a
+        servicios web basados en SOAP o REST, y aplicaciones de escritorio, de consola o interfaz gráfica. Lo que
+        incluye
+        aplicaciones empresariales para múltiples sectores (servicios financieros, sanidad e industrias manufactureras,
+        entre
+        otros).<br><br>
+
+        <b>4. C++: programación más fácil y eficiente</b>C ++ o C plus plus, se creó a partir del lenguaje C, con una
+        sintaxis casi idéntica pero con características orientadas a objetos, que permiten crear objetos dentro del
+        código.
+
+        Debido al poder y la flexibilidad que posee, la mayoría de los programas de software están escritos en C++.
+
+        Debido al poder y la flexibilidad que posee, la mayoría de los programas de software están escritos en C++. Por
+        ejemplo,
+        fue utilizado para desarrollar las aplicaciones de Adobe, los navegadores Google Chrome y Mozilla Firefox, y el
+        sistema
+        operativo Windows.<br><br>
+
+        <b>5. C#: lenguaje popular para la creación de programas de Windows y aplicaciones web</b>
+        Pronunciado “C Sharp”, fue desarrollado por Microsoft e introducido en el mercado en 2002 con la versión 1.0 de
+        .NET
+        Framework. Desde entonces, C # ha pasado por varias revisiones, correspondientes a cada actualización de .NET.
+
+        C# es un derivado del lenguaje de programación C y es similar a C ++. Utiliza los mismos operadores básicos que
+        C
+        ++,
+        está orientado a objetos, distingue entre mayúsculas y minúsculas y tiene una sintaxis casi idéntica.
+
+        ¿Dónde estudiar programación?
+        Para aprender programación enfocada en este lenguaje en particular, el Centro de e-Learning de la UTN.BA ofrece
+        un
+        interesante abanico de propuestas formativas.<br><br>
+        <hr>
+
+        <b><u>Alguno de sus cursos más destacados:</u></b><br><br>
+
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="..." class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+
+        <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false"
+            data-bs-interval="false">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="..." class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>

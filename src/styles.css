@@ -1,0 +1,77 @@
+/* You can add global styles to this file, and also import other style files */
+.container-inicio {
+    margin: 35px;
+    padding: 15px;
+    border: 1px solid black;
+    align-items: flex-start;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+}
+
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.fast {
+    -webkit-animation-duration: 0.4s;
+    animation-duration: 0.4s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+                                                                                                                                to {
+                                                                                                                                    opacity: 1;
+                                                                                                                                }
+                                                                                                                                }
+                                                                
+                                                                                                                                .fadeIn {
+                                                                                                                                    animation-name: fadeIn;
+                                                                                                                                }
+                                                                
+                                                                                                                                .footer {
+                                                                                                                                    border-radius: 10px;
+                                                                                                                                    margin: 35px;
+                                                                                                                                    padding: 15px;
+                                                                                                                                    /* background-color: #0d6efd;*/
+                                                                                                                                    border: 1px solid black;
+                                                                                                                                }
+                                                                
+                                                                                                                                .facu {
+                                                                                                                                    color: white;
+                                                                                                                                    margin: 25px;
+                                                                                                                                    padding: 5px;
+                                                                                                                                    height: 36px;
+                                                                                                                                    text-align: center;
+                                                                                                                                    border: 1px, solid black;
+                                                                                                                                    border-radius: 5px;
+                                                                                                                                    background-color: #0d6efd;
+                                                                                                                                }
+.github {
+    border: 2px solid black;
+    padding: 10px;
+    margin: 50px;
+    display: flex;
+    width: 1140px;
+}
+
+.gitlab {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 50px;
+    display: flex;
+    width: 400px;
+}
+
+.list {
+
+    margin-left: 100x;
+    width: 500px;
+}
